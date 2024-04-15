@@ -1,0 +1,103 @@
+div.img-fluid {
+    height: 3px;
+    padding: 10px;
+    ;
+    box-shadow: 0 4px 8px rgba(14, 6, 6, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-50px);
+    overflow: visible;
+
+}
+
+
+div.btn-group {
+    height: auto;
+    width: 20px;
+
+
+}
+
+nav.gap-2 {
+    justify-content-end;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin: 10px;
+    /* Remove o espaçamento externo */
+    padding: 10px;
+    /* Remove o preenchimento interno */
+
+
+
+
+}
+
+nav.button {
+    margin: 30px 20px;
+    background-color: rgb(54, 90, 19);
+}
+
+div.card {
+    background-color: transparent;
+    margin: 5%;
+    padding: 0 5px;
+    width: auto;
+    height: auto;
+    margin: 38px;
+    max-height: 100%;
+
+}
+
+.card h5 {
+    font-size: 1.2rem;
+    /* Tamanho da fonte */
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 1rem;
+    /* Tamanho da fonte */
+    color: #555;
+}
+
+container.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: #555;
+}
+
+div.card:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.body {
+    font-size: medium;
+}
+
+p.card-text {
+    text-align: center;
+}
+
+h5.card-title {
+    text-align: center;
+}
+
+#imagem {
+    overflow: hidden;
+
+    #imagem {
+        position: absolute;
+        /* Define a posição absoluta para permitir o movimento */
+        top: 50%;
+        /* Inicialmente, a imagem está no centro vertical */
+        left: 50%;
+        /* Inicialmente, a imagem está no centro horizontal */
+        transform: translate(-50%, -50%);
+        /* Move a imagem para o centro */
+    }
+
+
+}
